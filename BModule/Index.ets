@@ -1,0 +1,1 @@
+export { BFirstPage } from "./src/main/ets/pages/BFirstPage"

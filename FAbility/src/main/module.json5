@@ -1,0 +1,28 @@
+{
+  "module": {
+    "name": "FAbility",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "FAbilityAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "FAbilityAbility",
+        "srcEntry": "./ets/fabilityability/FAbilityAbility.ets",
+        "description": "$string:FAbilityAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:FAbilityAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "FAbilityAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "FAbilityAbility_label",
+      "value": "label"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/beantechs/.ohos/config/default_RouterDemo_ol7HaB3jX0GIT9Cl5bpD0ySHRVpm--BYMr9Ota5Rb4U=.cer",
+          "storePassword": "0000001AEF7800B50AFF0C83FF0A54E3014F4EBBA854DA7F0721E8BB25CCBEA7495508EF3594CED2BCEF",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A8B9067F74DC72DF7345DE7CFAC703174F91AA0957EE86A74FBE8A957DB9FB183472EB092BE6F",
+          "profile": "/Users/beantechs/.ohos/config/default_RouterDemo_ol7HaB3jX0GIT9Cl5bpD0ySHRVpm--BYMr9Ota5Rb4U=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/beantechs/.ohos/config/default_RouterDemo_ol7HaB3jX0GIT9Cl5bpD0ySHRVpm--BYMr9Ota5Rb4U=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": "4.1.0(11)",
+        "compatibleSdkVersion": "4.1.0(11)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AModule",
+      "srcPath": "./AModule",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BModule",
+      "srcPath": "./BModule",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Testlibrary",
+      "srcPath": "./Testlibrary",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FAbility",
+      "srcPath": "./FAbility",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PublicModules",
+      "srcPath": "./PublicModules",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
